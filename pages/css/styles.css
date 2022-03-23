@@ -1,0 +1,185 @@
+/* reset css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffbf0080;
+}
+
+/*  header */
+
+.header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(29, 208, 226, 0.97);
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    column-gap: 15px;
+    list-style: none;
+}
+
+.logoPagina img{
+    padding: 13px;
+    width: 300px;
+    height: 120px;
+}
+
+.menu li{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 30px;
+    padding: 15px;
+    margin: 5px;
+    border: 3px solid black;
+    text-transform: uppercase;
+}
+
+
+/* parrafo bienvenida */
+
+.parrafoBienvenida{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(4, 9, 26);
+}
+/* parrafo */
+
+.parrafo{
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+    color: rgb(4, 9, 26);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* footer */
+
+.footer{
+    background-color: rgb(24, 133, 228);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.footerTexto{
+    background-color: rgb(60, 165, 179);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 20px;
+}
+
+.rss{
+    display: flex;
+
+    font-size: 24px;
+    background-color: rgb(118, 193, 255);
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+}
+
+
+/* centrado imagen fondo */
+
+.imagenFondo{
+    display: block;
+    margin: auto;
+    height: 691px;
+    width: 1280px;
+}
+
+
+
+/* catalogo productos */
+
+.catalogoH3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.productos{
+    color: sienna;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+}
+
+.productos img{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+
+}
+
+.productos h3{
+    font-size: 30px;
+}
+
+.productos h4{
+    font-size: 20px;
+}
+
+/* contacto */
+
+.contacto{
+    display: inline-block;
+    padding: 10px;
+    font-size: 50px;
+    text-align: justify;
+}
+
+.contactoH3{
+    font-size: 35px;
+    text-align: center;
+}
+
+/* nosotros */ 
+
+.nosotros{
+    color: sienna;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+}
+
+.nosotrosH3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.nosotros h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.nosotros img{
+    display: block;
+    margin: auto;
+}
+
+/* galeria */
+
+.galeriaH3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.galeria img{
+    height: 500px;
+    width: 500px;
+    padding: 15px;
+}
+
+

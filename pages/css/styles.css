@@ -73,9 +73,12 @@ body {
     align-items: center;
     width: 100px;
     height: 100px;
-    padding: 15px;
-    margin: 15px;
+    padding: 0px;
     column-gap: 15px;
+}
+
+.rss a{
+    color: black;
 }
 
 
@@ -88,7 +91,7 @@ body {
 }
 
 /* grid index */
-
+/*
 .indexGrid {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
@@ -98,8 +101,14 @@ body {
         "imagen imagen imagen"
         "texto texto texto";
 }
+*/
 
 .parrafoBienvenida {
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
     grid-area: titulo;
     display: flex;
     justify-content: center;
@@ -114,6 +123,9 @@ body {
 }
 
 .parrafo {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    margin: 20px;
     grid-area: texto;
     display: flex;
     justify-content: center;
@@ -143,14 +155,23 @@ body {
 /* catalogo productos */
 
 .catalogoH3 {
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
+    margin: 30px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
 }
 
 .productos {
     color: sienna;
     font-family: 'Roboto Slab';
     font-weight: 500;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card{
+    background-color: #d7dbc3;
 }
 
 .productos img {
@@ -167,74 +188,39 @@ body {
     text-align: center;
 }
 
-/* grid catalogo */
-
-main {
-    width: 90vw;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.section-card {
-    display: grid;
-    grid-template-areas:
-        "title image"
-        "texto image";
-}
-
-.section-card_title{
-    grid-area: title;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.section-card_text{
-    grid-area: texto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.section-card_image{
-    grid-area: image;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-
 /* contacto */
 
 .contacto {
-    display: inline-block;
-    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 40px;
     font-size: 50px;
     text-align: justify;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .contactoH3 {
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
+    margin: 30px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
     grid-area: titulo5;
 }
 
 .parrafoProductos{
     grid-area: contacto;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    margin: 40px;
+}
+
+.botonContacto{
+    background-color: aquamarine;
+    color: black;
+    display: flex;
+    justify-content: center;
 }
 
 /* grid contacto */
@@ -258,8 +244,12 @@ main {
 }
 
 .nosotrosH3 {
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
+    margin: 30px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    color: black;
     grid-area: titulo2;
     display: flex;
     justify-content: center;
@@ -267,7 +257,7 @@ main {
 }
 
 .nosotros p {
-    font-size: 30px;
+    /*font-size: 30px;*/
     text-align: center;
     padding: 20px;
 }
@@ -318,8 +308,11 @@ main {
 /* galeria */
 
 .galeriaH3 {
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
+    margin: 30px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
     grid-area: galeria;
     display: flex;
     justify-content: center;
@@ -392,7 +385,7 @@ main {
 
     .rss {
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
     }
 
     .galeria {

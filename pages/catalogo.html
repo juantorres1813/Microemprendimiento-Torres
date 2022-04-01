@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Equilibrio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
     <!-- link css-->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +22,9 @@
 <body>
     <!--Header-->
     <header class="header">
-        <a href="../index.html"><img src="./multimedia/logo.jpg" alt="Logo en desarrollo"></a>
+        <div class="logoPagina">
+            <a href="index.html"><img src="./multimedia/logo.jpg" alt="Logo"></a>
+        </div>
         <nav class="navegacion">
             <ul class="menu">
                 <li><a href="../index.html">Home</a></li>
@@ -36,61 +44,41 @@
 
 
     <main class="productos">
-        <section class="section-card">
-            <div class="section-card_image">
-                <img src="multimedia/producto1.jpg" alt="producto1">
+        <div class="card" style="width: 18rem;">
+            <img src="multimedia/producto1.jpg" class="card-img-top" alt="producto1">
+            <div class="card-body">
+                <h5 class="card-title">Producto1</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
             </div>
-            <div class="section-card_title">
-                <h3>Producto1</h3>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="multimedia/producto2.jpeg" class="card-img-top" alt="producto2">
+            <div class="card-body">
+                <h5 class="card-title">Producto2</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
             </div>
-            <article class="section-card_text">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, doloremque!</p>
-            </article>
-        </section>
-        <section class="section-card">
-            <div class="section-card_image">
-                <img src="multimedia/producto2.jpeg" alt="producto2">
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="multimedia/producto3.jpg" class="card-img-top" alt="producto3">
+            <div class="card-body">
+                <h5 class="card-title">Producto2</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
             </div>
-            <div class="section-card_title">
-                <h3>Producto2</h3>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="multimedia/producto4.jpg" class="card-img-top" alt="producto4">
+            <div class="card-body">
+                <h5 class="card-title">Producto2</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
             </div>
-            <article class="section-card_text">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, doloremque!</p>
-            </article>
-        </section>
-        <section class="section-card">
-            <div class="section-card_image">
-                <img src="multimedia/producto3.jpg" alt="producto3">
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="multimedia/producto5.jpg" class="card-img-top" alt="producto5">
+            <div class="card-body">
+                <h5 class="card-title">Producto2</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
             </div>
-            <div class="section-card_title">
-                <h3>Producto3</h3>
-            </div>
-            <article class="section-card_text">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, doloremque!</p>
-            </article>
-        </section>
-        <section class="section-card">
-            <div class="section-card_image">
-                <img src="multimedia/producto4.jpg" alt="producto4">
-            </div>
-            <div class="section-card_title">
-                <h3>Producto4</h3>
-            </div>
-            <article class="section-card_text">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, doloremque!</p>
-            </article>
-        </section>
-        <section class="section-card">
-            <div class="section-card_image">
-                <img src="multimedia/producto5.jpg" alt="producto5">
-            </div>
-            <div class="section-card_title">
-                <h3>Producto5</h3>
-            </div>
-            <article class="section-card_text">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, doloremque!</p>
-            </article>
-        </section>
+        </div>
     </main>
 
     <!-- Footer -->
@@ -103,6 +91,12 @@
         </ul>
     </footer>
     <!-- Fin de footer -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
 
 </body>
 

@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #b16df2;
+    background-color: #d1eaf9;
 }
 
 /*  header */
@@ -16,12 +16,12 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(29, 208, 226, 0.97);
+    background-color: #97d0f0;
 }
 
 .menu li a {
     text-decoration: none;
-    color: #4f2548;
+    color: black;
 }
 
 .menu {
@@ -48,7 +48,7 @@ body {
 /* footer */
 
 .footer {
-    background-color: rgb(24, 133, 228);
+    background-color: #97d0f0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -87,19 +87,6 @@ body {
     margin: auto;
     width: 70%;
 }
-
-/* grid index */
-/*
-.indexGrid {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr;
-    grid-template-rows: 0.8fr 2fr 0.8fr;
-    grid-template-areas:
-        "titulo titulo titulo"
-        "imagen imagen imagen"
-        "texto texto texto";
-}
-*/
 
 .parrafoBienvenida {
     font-size: 50px;
@@ -391,7 +378,7 @@ body {
 
 /* media queries */
 
-/* vista lg  */
+/* vista max 1024  */
 
 @media screen and (max-width: 1024px){
     .gallery-container{
@@ -420,10 +407,6 @@ body {
 /* vista tablet */
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: aquamarine;
-    }
-
     .footer {
         display: flex;
         flex-flow: column wrap;
@@ -475,9 +458,5 @@ body {
     .productos {
         display: flex;
         flex-flow: column wrap;
-    }
-
-    body {
-        background-color: cornflowerblue;
     }
 }

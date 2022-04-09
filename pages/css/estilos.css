@@ -1,0 +1,86 @@
+/* nosotros */
+.nosotros {
+  color: sienna;
+  font-family: 'Roboto Slab';
+  font-weight: 700; }
+  .nosotros h3 {
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    color: black;
+    grid-area: titulo2;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .nosotros img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    grid-area: imagen2; }
+  .nosotros p {
+    text-align: center;
+    padding: 20px; }
+    .nosotros p:hover {
+      color: black;
+      text-align: justify; }
+
+.botonContacto {
+  background-color: aquamarine;
+  color: black;
+  display: flex;
+  justify-content: center; }
+
+/*  header */
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #97d0f0; }
+  .header .logoPagina img {
+    padding: 13px;
+    width: 280px;
+    height: 120px; }
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  list-style: none; }
+  .menu li {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 30px;
+    padding: 15px;
+    margin: 5px; }
+    .menu li a {
+      text-decoration: none;
+      color: black; }
+
+/* footer */
+.footer {
+  background-color: #97d0f0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center; }
+  .footer .footerTexto {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding: 20px; }
+  .footer .rss {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-size: 25px;
+    list-style: none;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    column-gap: 15px; }
+    .footer .rss a {
+      color: black; }

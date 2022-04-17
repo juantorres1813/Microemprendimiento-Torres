@@ -1,5 +1,9 @@
 /* nosotros */
 
+body {
+    background-color: #d1eaf9;
+}
+
 .nosotros {
     color: sienna;
     font-family: 'Roboto Slab';
@@ -36,12 +40,6 @@
     }
 }
 
-.botonContacto {
-    background-color: aquamarine;
-    color: black;
-    display: flex;
-    justify-content: center;
-}
 
 /*  header */
 
@@ -115,3 +113,51 @@
         }
     }
 }
+
+/* Desafio SEO */
+
+/* Map */
+
+$estilos: (
+    colorAquamarine: aquamarine,
+    colorNegro: black,
+    displayFlex: flex,
+    JCCenter: center
+);
+
+/* Map-get */
+
+.botonContacto{
+    background-color: map-get($estilos, colorAquamarine);
+    color: map-get($estilos, colorNegro);
+    display: map-get($estilos, displayFlex);
+    justify-content: map-get($estilos, JCCenter);
+}
+
+/* Extend */
+
+.botonContacto {
+    background-color: aquamarine;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.botonEspecial{
+    @extend .botonContacto;
+    color: white;
+    background-color: darkblue;
+}
+
+/* Mixins */
+
+@mixin colores($background, $color) {
+    color: $color;
+    background-color: $background;
+}
+
+.botonEspecial2{
+    @extend .botonContacto;
+    @include colores(green, yellow)
+}
+

@@ -1,4 +1,7 @@
 /* nosotros */
+body {
+  background-color: #d1eaf9; }
+
 .nosotros {
   color: sienna;
   font-family: 'Roboto Slab';
@@ -25,12 +28,6 @@
     .nosotros p:hover {
       color: black;
       text-align: justify; }
-
-.botonContacto {
-  background-color: aquamarine;
-  color: black;
-  display: flex;
-  justify-content: center; }
 
 /*  header */
 .header {
@@ -84,3 +81,28 @@
     column-gap: 15px; }
     .footer .rss a {
       color: black; }
+
+/* Desafio SEO */
+/* Map */
+/* Map-get */
+.botonContacto, .botonEspecial, .botonEspecial2 {
+  background-color: aquamarine;
+  color: black;
+  display: flex;
+  justify-content: center; }
+
+/* Extend */
+.botonContacto, .botonEspecial, .botonEspecial2 {
+  background-color: aquamarine;
+  color: black;
+  display: flex;
+  justify-content: center; }
+
+.botonEspecial {
+  color: white;
+  background-color: darkblue; }
+
+/* Mixins */
+.botonEspecial2 {
+  color: yellow;
+  background-color: green; }

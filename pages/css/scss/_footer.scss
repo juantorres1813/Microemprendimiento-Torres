@@ -1,0 +1,39 @@
+/* footer */
+
+.footer {
+    background-color: #97d0f0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    .footerTexto {
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        padding: 20px;
+    }
+}
+
+.footerTexto {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding: 20px;
+}
+
+.rss {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-size: 25px;
+    list-style: none;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    column-gap: 15px;
+}
+
+.rss a {
+    color: black;
+}

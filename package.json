@@ -1,7 +1,7 @@
 {
-  "name": "pf-tia",
+  "name": "mi-equilibrio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mi equilibrio, Microemprendimiento. Aquí encontrarás toda una colección de cartucheras, bolsos y demás accesorios para tu vida diaria.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

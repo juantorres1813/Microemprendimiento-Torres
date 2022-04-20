@@ -40,124 +40,40 @@ body {
     }
 }
 
+/* grid nosotros */
 
-/*  header */
+.nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr 0.6fr 0.4fr 0.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "titulo2 titulo2"
+        "imagen2 imagen2"
+        "parrafo3 parrafo3"
+        "parrafo4 parrafo4"
+        "parrafo5 parrafo5";
 
-.header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #97d0f0;
-
-    .logoPagina {
-        img {
-            padding: 13px;
-            width: 280px;
-            height: 120px;
-        }
-    }
-}
-
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 15px;
-    list-style: none;
-
-    li {
-        font-family: 'Roboto Slab';
-        font-weight: 700;
-        font-size: 30px;
-        padding: 15px;
-        margin: 5px;
-
-        a {
-            text-decoration: none;
-            color: black;
-        }
-    }
-}
-
-
-/* footer */
-
-.footer {
-    background-color: #97d0f0;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-
-    .footerTexto {
-        font-size: 25px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: left;
-        padding: 20px;
-    }
-
-    .rss {
+    .p1 {
+        grid-area: parrafo3;
         display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-around;
-        font-size: 25px;
-        list-style: none;
+        justify-content: center;
         align-items: center;
-        width: 100px;
-        height: 100px;
-        padding: 0px;
-        column-gap: 15px;
-
-        a {
-            color: black;
-        }
     }
-}
 
-/* Desafio SEO */
+    .p2 {
+        grid-area: parrafo4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-/* Map */
-
-$estilos: (
-    colorAquamarine: aquamarine,
-    colorNegro: black,
-    displayFlex: flex,
-    JCCenter: center
-);
-
-/* Map-get */
-
-.botonContacto{
-    background-color: map-get($estilos, colorAquamarine);
-    color: map-get($estilos, colorNegro);
-    display: map-get($estilos, displayFlex);
-    justify-content: map-get($estilos, JCCenter);
-}
-
-/* Extend */
-
-.botonContacto {
-    background-color: aquamarine;
-    color: black;
-    display: flex;
-    justify-content: center;
-}
-
-.botonEspecial{
-    @extend .botonContacto;
-    color: white;
-    background-color: darkblue;
-}
-
-/* Mixins */
-
-@mixin colores($background, $color) {
-    color: $color;
-    background-color: $background;
-}
-
-.botonEspecial2{
-    @extend .botonContacto;
-    @include colores(green, yellow)
+    .p3 {
+        grid-area: parrafo5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 

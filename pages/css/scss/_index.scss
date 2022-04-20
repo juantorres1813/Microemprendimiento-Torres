@@ -1,0 +1,23 @@
+/* parrafo */
+
+.parrafo {
+    font-style: italic;
+    font-size: 45px;
+    color: rgb(4, 9, 26);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* parrafo bienvenida */
+
+.parrafoBienvenida {
+    font-size: 50px;
+    margin: 30px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

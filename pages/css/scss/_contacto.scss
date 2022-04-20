@@ -1,0 +1,41 @@
+/* contacto */
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 50px;
+    text-align: start;
+}
+
+.contacto-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    grid-template-areas:
+        "titulo5 titulo5"
+        "contacto contacto";
+
+    .contactoH3 {
+        font-size: 50px;
+        text-align: center;
+        margin: 30px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        grid-area: titulo5;
+    }
+
+    .parrafoProductos {
+        grid-area: contacto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+        font-family: 'Roboto Slab';
+        font-weight: 500;
+        font-size: 45px;
+    }
+
+}
+

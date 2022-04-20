@@ -1,0 +1,29 @@
+/* catalogo productos */
+
+.catalogoH3 {
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+}
+
+.productos {
+    color: black;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    .card {
+        background-color: #97d0f0;
+        border: 1px solid black;
+    }
+
+    img {
+        height: 70%;
+        width: 90%;
+    }
+
+}

@@ -19,6 +19,11 @@
     .card {
         background-color: #97d0f0;
         border: 1px solid black;
+
+        &:hover {
+            animation: pulse;
+            animation-duration: 1s;
+        }
     }
 
     img {

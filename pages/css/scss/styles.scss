@@ -3,12 +3,7 @@
     margin: 0;
     padding: 0;
 }
-body {
-    background-color: #ffffff;
-    background-image: url(/pages/multimedia/fondopagina.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-}
+
 @import "header";
 @import "index";
 @import "catalogo";
@@ -17,4 +12,11 @@ body {
 @import "contacto";
 @import "footer";
 @import "queries";
+
+body {
+    background-color: #ffffff;
+    background-image: url(/pages/multimedia/fondopagina.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
 

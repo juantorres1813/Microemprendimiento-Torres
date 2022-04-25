@@ -6,29 +6,37 @@
     margin: 30px;
     font-family: 'Roboto Slab';
     font-weight: 700;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #e7eaf9, #c2c5d2);
+    box-shadow: 24px 36px 40px #abadb8,
+        -24px -36px 90px #ffffff;
 }
 
 .productos {
     color: black;
     font-family: 'Roboto Slab';
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 30px;
     display: flex;
     flex-flow: row wrap;
+    row-gap: 20px;
     justify-content: space-evenly;
 
     .card {
-        background-color: #97d0f0;
         border: 1px solid black;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.4);
 
-        &:hover {
-            animation: pulse;
-            animation-duration: 1s;
-        }
     }
 
     img {
         height: 70%;
         width: 90%;
+
+        &:hover {
+            animation: pulse;
+            animation-duration: 1s;
+        }
     }
 
 }

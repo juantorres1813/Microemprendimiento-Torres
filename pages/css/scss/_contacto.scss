@@ -12,7 +12,7 @@
 .contacto-contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 1.5fr;
+    grid-template-rows: 2fr 2fr;
     grid-template-areas:
         "titulo5 titulo5"
         "contacto contacto";
@@ -24,6 +24,10 @@
         font-family: 'Roboto Slab';
         font-weight: 700;
         grid-area: titulo5;
+        border-radius: 25px;
+        background: linear-gradient(145deg, #e7eaf9, #c2c5d2);
+        box-shadow: 24px 36px 40px #abadb8,
+            -24px -36px 90px #ffffff;
     }
 
     .parrafoProductos {
@@ -38,4 +42,3 @@
     }
 
 }
-

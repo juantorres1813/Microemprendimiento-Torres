@@ -5,13 +5,15 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #97d0f0;
+    background: rgba($color: #000000, $alpha: 0.1);
 
     .logoPagina {
         img {
             padding: 13px;
+            margin-left: 30px;
             width: 280px;
             height: 120px;
+            border-radius: 30px;
         }
     }
 }

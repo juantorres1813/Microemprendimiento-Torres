@@ -5,37 +5,26 @@
 
 /*  header */
 .header {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
   background: rgba(0, 0, 0, 0.1); }
-  .header .logoPagina img {
+  .header .navbar div .navbar-brand img {
     padding: 13px;
-    margin-left: 30px;
-    width: 280px;
+    margin-left: 5px;
+    width: 200px;
     height: 120px;
     border-radius: 30px; }
 
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 15px;
-  list-style: none; }
-  .menu li {
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 30px;
-    padding: 15px;
-    margin: 5px; }
-    .menu li a {
-      text-decoration: none;
-      color: black;
-      text-transform: uppercase;
-      padding: 20px; }
-      .menu li a:hover {
-        background-color: rgba(0, 0, 0, 0.3);
-        transition: .4s; }
+.navbar-nav .nav-item {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 28px; }
+  .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px; }
+    .navbar-nav .nav-item .nav-link:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+      transition: .4s; }
 
 /* parrafo */
 .parrafo {
@@ -334,14 +323,24 @@
     .gallery-container .gallery__item:nth-child(20) {
       grid-column-start: span 2; } }
 
+/* vista 991 */
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    flex-direction: column; }
+    .navbar-nav .nav-item {
+      flex-direction: column;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      text-align: center; } }
+
 /* vista mobile */
 @media screen and (max-width: 480px) {
   .header {
     display: flex;
-    flex-flow: column wrap; }
+    flex-flow: column nowrap; }
     .header .menu {
       display: flex;
-      flex-flow: column wrap; }
+      flex-flow: column nowrap; }
   .grupofooter1 {
     display: flex;
     flex-flow: column wrap; }

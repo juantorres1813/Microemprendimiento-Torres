@@ -30,17 +30,35 @@
 <body>
     <!--Header-->
     <header class="header">
-        <div class="logoPagina">
-            <a href="index.html"><img src="pages/multimedia/logo.jpg" alt="Logo"></a>
-        </div>
-        <nav class="navegacion">
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/catalogo.html">Catálogo</a></li>
-                <li><a href="pages/galeria.html">Galería</a></li>
-                <li><a href="pages/nosotros.html">Sobre mi</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background: rgba(0, 0, 0, 0.1);">
+            <div class="container">
+                <a class="navbar-brand col-lg-3" href="/index.html">
+                    <img src="pages/multimedia/logo.jpg" class="logoPagina" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-lg-9" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/catalogo.html">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/nosotros.html">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <!-- Fin Header-->

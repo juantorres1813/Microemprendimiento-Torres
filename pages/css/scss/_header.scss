@@ -1,42 +1,36 @@
 /*  header */
 
 .header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba($color: #000000, $alpha: 0.1);
+    background: rgba(0, 0, 0, 0.1);
 
-    .logoPagina {
-        img {
-            padding: 13px;
-            margin-left: 30px;
-            width: 280px;
-            height: 120px;
-            border-radius: 30px;
+    .navbar {
+        div {
+            .navbar-brand {
+                img {
+                    padding: 13px;
+                    margin-left: 5px;
+                    width: 200px;
+                    height: 120px;
+                    border-radius: 30px;
+                }
+            }
         }
     }
 }
 
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 15px;
-    list-style: none;
-
-    li {
+.navbar-nav {
+    .nav-item {
         font-family: 'Roboto Slab';
         font-weight: 700;
-        font-size: 30px;
-        padding: 15px;
-        margin: 5px;
+        font-size: 28px;
 
-        a {
+        .nav-link {
             text-decoration: none;
             color: black;
             text-transform: uppercase;
-            padding: 20px;
-            &:hover{
+            padding: 10px;
+
+            &:hover {
                 background-color: rgba(0, 0, 0, .3);
                 transition: .4s;
             }

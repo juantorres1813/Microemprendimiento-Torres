@@ -28,16 +28,14 @@
         background: rgba(255, 255, 255, 0.4);
         object-fit: cover;
 
-    }
+        img {
+            height: 420px;
+            width: 257px;
 
-    img {
-        height: 70%;
-        width: 90%;
-
-        &:hover {
-            animation: pulse;
-            animation-duration: 1s;
+            &:hover {
+                animation: pulse;
+                animation-duration: 1s;
+            }
         }
     }
-
 }

@@ -83,12 +83,12 @@
     text-align: center;
     background: rgba(255, 255, 255, 0.4);
     object-fit: cover; }
-  .productos img {
-    height: 70%;
-    width: 90%; }
-    .productos img:hover {
-      animation: pulse;
-      animation-duration: 1s; }
+    .productos .card img {
+      height: 420px;
+      width: 257px; }
+      .productos .card img:hover {
+        animation: pulse;
+        animation-duration: 1s; }
 
 /* galeria */
 .galeriaH3 {
@@ -331,7 +331,23 @@
       flex-direction: column;
       border-top: 1px solid black;
       border-bottom: 1px solid black;
-      text-align: center; } }
+      text-align: center; }
+  .nosotros {
+    display: flex;
+    flex-direction: column; }
+    .nosotros img {
+      width: 90%; } }
+
+/* vista tablet */
+@media screen and (max-width: 768px) {
+  .parrafo {
+    text-align: center;
+    font-size: 40px; }
+  .parrafoBienvenida {
+    text-align: center; }
+  .carousel-inner img {
+    width: 100%;
+    height: 500px; } }
 
 /* vista mobile */
 @media screen and (max-width: 480px) {
@@ -351,7 +367,14 @@
     margin: auto; }
   .productos {
     display: flex;
-    flex-flow: column wrap; } }
+    flex-direction: row; }
+  .catalogoH3 {
+    text-align: center; }
+  .nosotros img {
+    width: 95%; }
+  .carousel-inner img {
+    width: 100%;
+    height: 400px; } }
 
 body {
   background-color: #ffffff;

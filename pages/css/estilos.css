@@ -347,7 +347,9 @@
     text-align: center; }
   .carousel-inner img {
     width: 100%;
-    height: 500px; } }
+    height: 500px; }
+  .footer .grupofooter2 .footerTexto {
+    text-align: center; } }
 
 /* vista mobile */
 @media screen and (max-width: 480px) {

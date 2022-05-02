@@ -68,12 +68,13 @@
     }
 
     .gallery__item:nth-child(13) {
-        grid-row-start: span 2;
+        grid-row-start: span 3;
+        grid-column-start: span 3;
     }
 
     .gallery__item:nth-child(14) {
         grid-row-start: span 2;
-        grid-column-start: span 2;
+        grid-column-start: span 3;
     }
 
     .gallery__item:nth-child(15) {

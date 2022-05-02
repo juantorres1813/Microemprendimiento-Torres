@@ -39,7 +39,8 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18); }
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center; }
 
 /* parrafo bienvenida */
 .parrafoBienvenida {
@@ -50,6 +51,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   border-radius: 25px;
   background: linear-gradient(145deg, #e7eaf9, #c2c5d2);
   box-shadow: 24px 36px 40px #abadb8, -24px -36px 90px #ffffff; }
@@ -315,10 +317,7 @@
 /* vista tablet */
 @media screen and (max-width: 768px) {
   .parrafo {
-    text-align: center;
     font-size: 40px; }
-  .parrafoBienvenida {
-    text-align: center; }
   .carousel-inner img {
     width: 100%;
     height: 500px; }

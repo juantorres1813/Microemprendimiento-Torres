@@ -197,6 +197,14 @@
   .gallery-container .gallery__item:nth-child(47) {
     grid-row-start: span 3;
     grid-column-start: span 2; }
+  .gallery-container .gallery__item:nth-child(48) {
+    grid-row-start: span 3; }
+  .gallery-container .gallery__item:nth-child(49) {
+    grid-row-start: span 3;
+    grid-column-start: span 2; }
+  .gallery-container .gallery__item:nth-child(50) {
+    grid-row-start: span 2;
+    grid-column-start: span 2; }
   .gallery-container img {
     width: 100%;
     height: 100%;

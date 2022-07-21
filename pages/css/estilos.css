@@ -84,7 +84,8 @@
     border: 1px solid black;
     text-align: center;
     background: rgba(255, 255, 255, 0.4);
-    object-fit: cover; }
+    object-fit: cover;
+    box-shadow: 1px 1px gray; }
     .productos .card img {
       height: 420px;
       width: 257px; }
@@ -203,6 +204,16 @@
     grid-row-start: span 3;
     grid-column-start: span 2; }
   .gallery-container .gallery__item:nth-child(50) {
+    grid-row-start: span 2;
+    grid-column-start: span 2; }
+  .gallery-container .gallery__item:nth-child(51) {
+    grid-row-start: span 2; }
+  .gallery-container .gallery__item:nth-child(52) {
+    grid-row-start: span 2; }
+  .gallery-container .gallery__item:nth-child(53) {
+    grid-row-start: span 2;
+    grid-column-start: span 2; }
+  .gallery-container .gallery__item:nth-child(54) {
     grid-row-start: span 2;
     grid-column-start: span 2; }
   .gallery-container img {

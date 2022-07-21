@@ -425,7 +425,6 @@
     grid-template-rows: 0.9fr 2fr; } }
 
 body {
-  background-color: #ffffff;
   background: url(../multimedia/fondopagina.jpg);
   background-attachment: fixed;
   background-size: cover; }
